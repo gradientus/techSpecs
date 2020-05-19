@@ -3,7 +3,340 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hello World</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav id="navbar">
+        <header><h1>Hello World in 5 Languages</h1></header>
+        <ul>
+          <li><a href="#introduction" class="nav-link">Introduction</a></li>
+          <li><a href="#ada" class="nav-link">Ada</a></li>
+          <li><a href="#basic" class="nav-link">Basic</a></li>
+          <li><a href="#pascal" class="nav-link">Pascal</a></li>
+          <li><a href="#python" class="nav-link">Python</a></li>
+          <li><a href="#x86_assembly" class="nav-link">x86 Assembly</a></li>
+          <li><a href="#references" class="nav-link">References</a></li>
+        </ul>
+      </nav>
+
+      <!-- Introduction -->
+      <main id="main-doc">
+        <section class="main-section" id="introduction">
+          <header><h2>Introduction</h2></header>
+          <p>
+            Hello World is a simple program that can be written in almost every
+            programming language as a very first step into that programming
+            language. What is required is documented below:
+          </p>
+          <ol>
+            <li>curiosity about new programming languages</li>
+            <li>desire to learn</li>
+            <li>a computer</li>
+            <li>a text editor</li>
+            <li>the appropriate compiler</li>
+          </ol>
+        </section>
+
+        <!-- Ada -->
+        <section class="main-section" id="ada">
+          <header><h2>Ada</h2></header>
+          <div class="description">
+            <p>
+              Ada is a structured, statically typed, imperative, and
+              object-oriented high-level programming language, extended from
+              Pascal and other languages. It has built-in language support for
+              design by contract (DbC), extremely strong typing, explicit
+              concurrency, tasks, synchronous message passing, protected
+              objects, and non-determinism. Ada improves code safety and
+              maintainability by using the compiler to find errors in favor of
+              runtime errors. Ada is an international technical standard,
+              jointly defined by the International Organization for
+              Standardization (ISO), and the International Electrotechnical
+              Commission (IEC). As of 2020, the standard, called Ada 2012
+              informally, is ISO/IEC 8652:2012.
+            </p>
+
+            <p>
+              Ada was originally designed by a team led by French computer
+              scientist Jean Ichbiah of CII Honeywell Bull under contract to the
+              United States Department of Defense (DoD) from 1977 to 1983 to
+              supersede over 450 programming languages used by the DoD at that
+              time. Ada was named after Ada Lovelace (1815–1852), who has been
+              credited as the first computer programmer.
+            </p>
+
+            <p>
+              Ada is used to design extremely large software systems. It is
+              often used in US government agencies that depend on no errors in
+              the code. It is currently used in the US Department of Defense,
+              NATO, Airplan Info Management Systems, as well as many railway
+              systems.
+            </p>
+          </div>
+          <h3>Hello World in Ada:</h3>
+          <code>
+            with Ada.Text_IO; use Ada.Text_IO; <br />
+            procedure hello is <br />
+            begin <br />
+            &nbsp;&nbsp;Put_Line ("Hello World!"); <br />
+            end hello;<br />
+          </code>
+        </section>
+
+        <!-- BASIC -->
+        <section class="main-section" id="basic">
+          <header><h2>BASIC</h2></header>
+          <p class="description">
+            BASIC (Beginners' All-purpose Symbolic Instruction Code) is a family
+            of general-purpose, high-level programming languages whose design
+            philosophy emphasizes ease of use. The original version was designed
+            by John G. Kemeny and Thomas E. Kurtz and released at Dartmouth
+            College in 1964. They wanted to enable students in fields other than
+            science and mathematics to use computers. At the time, nearly all
+            use of computers required writing custom software, which was
+            something only scientists and mathematicians tended to learn. In
+            addition to the language itself, Kemeny and Kurtz developed the
+            Dartmouth Time Sharing System (DTSS), which allowed multiple users
+            to edit and run BASIC programs at the same time. This general model
+            became very popular on minicomputer systems like the PDP-11 and Data
+            General Nova in the late 1960s and early 1970s. Hewlett-Packard
+            produced an entire computer line for this method of operation,
+            introducing the HP2000 series in the late 1960s and continuing sales
+            into the 1980s. Many early video games trace their history to one of
+            these versions of BASIC. The emergence of early microcomputers in
+            the mid-1970s led to the development of number of BASIC dialects,
+            including Microsoft BASIC in 1975. Due to the tiny main memory
+            available on these machines, often 4 kB, a variety of Tiny BASIC
+            dialects was also created. BASIC was available for almost any system
+            of the era, and naturally became the de facto programming language
+            for the home computer systems that emerged in the late 1970s. These
+            machines almost always had a BASIC interpreter installed by default,
+            often in the machine's firmware or sometimes on a ROM cartridge.
+            BASIC fell from use during the later 1980s as newer machines with
+            far greater capabilities came to market and other programming
+            languages (such as Pascal and C) became tenable. In 1991, Microsoft
+            released Visual Basic, combining a greatly updated version of BASIC
+            with a visual forms builder. This reignited use of the language and
+            "VB" remains a major programming language in the form of VB.NET.
+          </p>
+          <p>
+            BASIC has no real modern uses other than historic and academic. Many
+            other BASIC dialects have also sprung up since 1990, including the
+            open source QB64 and FreeBASIC, inspired by QBasic, and the Visual
+            Basic-styled RapidQ, Basic For Qt and Gambas. Modern commercial
+            incarnations include PureBasic, PowerBASIC, Xojo, Monkey X and True
+            BASIC (the direct successor to Dartmouth BASIC from a company
+            controlled by Kurtz). Several web-based simple BASIC interpreters
+            also now exist, including Quite BASIC and Microsoft's Small Basic.
+            Many versions of BASIC are also now available for smartphones and
+            tablets via the Apple App Store, or Google Play store for Android.
+            On game consoles, an application for the Nintendo 3DS and Nintendo
+            DSi called Petit Computer allows for programming in a slightly
+            modified version of BASIC with DS button support.
+          </p>
+          <h3>Hello World in BASIC:</h3>
+          <code>
+            PRINT "Hello, world!"
+          </code>
+        </section>
+
+        <!-- Pascal -->
+        <section class="main-section" id="pascal">
+          <header><h2>Pascal</h2></header>
+          <div class="description">
+            <p>
+              Pascal is an imperative and procedural programming language,
+              designed by Niklaus Wirth as a small, efficient language intended
+              to encourage good programming practices using structured
+              programming and data structuring. It is named in honour of the
+              French mathematician, philosopher and physicist Blaise Pascal.
+            </p>
+            <p>
+              Based on Wirth's book, Algorithms + Data Structures = Programs,
+              Pascal was developed on the pattern of the ALGOL 60 language.
+              Wirth was involved in the process to improve the language as part
+              of the ALGOL X efforts and proposed a version known as ALGOL W.
+              This was not accepted, and the ALGOL X process bogged down. In
+              1968, Wirth decided to abandon the ALGOL X process and further
+              improve ALGOL W, releasing this as Pascal in 1970.
+            </p>
+            <p>
+              On top of ALGOL's scalars and arrays, Pascal enabled defining
+              complex datatypes and building dynamic and recursive data
+              structures such as lists, trees and graphs. Pascal has strong
+              typing on all objects, which means that one type of data cannot be
+              converted or interpreted as another without explicit conversions.
+              Unlike most languages in the C-family, Pascal allows nested
+              procedure definitions to any level of depth, and also allows most
+              kinds of definitions and declarations inside subroutines
+              (procedures and functions). A program is thus syntactically
+              similar to a single procedure or function. Pascal became very
+              successful in the 1970s, notably on the burgeoning minicomputer
+              market. Compilers were also available for many microcomputers as
+              the field emerged in the late 1970s. It was widely used as a
+              teaching language in university-level programming courses in the
+              1980s, and also used in production settings for writing commercial
+              software during the same period. It was displaced by the C
+              programming language during the late 1980s and early 1990s as
+              UNIX-based systems became popular, and especially with the release
+              of C++.
+            </p>
+            <p>
+              A derivative known as Object Pascal designed for object-oriented
+              programming was developed in 1985; this was used by Apple Computer
+              and Borland in the late 1980s and later developed into Delphi on
+              the Microsoft Windows platform. Extensions to the Pascal concepts
+              led to the languages Modula-2 and Oberon.
+            </p>
+            <p>
+              Today Pascal is primarily used to academic purposes, however, a
+              derivative language called Object Pascal continues to be used by
+              Microsoft today for some Windows applications.
+            </p>
+          </div>
+          <h3>Hello World in Pascal:</h3>
+          <code>
+            program HelloWorld(output); <br />
+            begin <br />
+            &nbsp;&nbsp;Write('Hello, World!') <br />
+            end.
+          </code>
+        </section>
+
+        <!-- Python -->
+        <section class="main-section" id="python">
+          <header><h2>Python</h2></header>
+          <div class="description">
+            <p>
+              Python is an interpreted, high-level, general-purpose programming
+              language. Created by Guido van Rossum and first released in 1991,
+              Python's design philosophy emphasizes code readability with its
+              notable use of significant whitespace. Its language constructs and
+              object-oriented approach aim to help programmers write clear,
+              logical code for small and large-scale projects.
+            </p>
+
+            <p>
+              Python is dynamically typed and garbage-collected. It supports
+              multiple programming paradigms, including structured
+              (particularly, procedural), object-oriented, and functional
+              programming. Python is often described as a "batteries included"
+              language due to its comprehensive standard library. Python was
+              conceived in the late 1980s as a successor to the ABC language.
+              Python 2.0, released in 2000, introduced features like list
+              comprehensions and a garbage collection system capable of
+              collecting reference cycles. Python 3.0, released in 2008, was a
+              major revision of the language that is not completely
+              backward-compatible, and much Python 2 code does not run
+              unmodified on Python 3.
+            </p>
+
+            <p>
+              The Python 2 language was officially discontinued in 2020 (first
+              planned for 2015), and "Python 2.7.18 is the last Python 2.7
+              release and therefore the last Python 2 release." No more security
+              patches or other improvements will be released for it. With Python
+              2's end-of-life, only Python 3.5.x and later are supported.
+            </p>
+
+            <p>
+              Python interpreters are available for many operating systems. A
+              global community of programmers develops and maintains CPython, an
+              open source[34] reference implementation. A non-profit
+              organization, the Python Software Foundation, manages and directs
+              resources for Python and CPython development.
+            </p>
+          </div>
+          <h3>Hello World in Python:</h3>
+          <code>
+            print('Hello, world!')
+          </code>
+        </section>
+
+        <!-- x86 Assembly -->
+        <section class="main-section" id="x86_assembly">
+          <header><h2>x86 Assembly</h2></header>
+          <div class="description">
+            <p>
+              x86 Assembly Language is a family of backward-compatible assembly
+              languages, which provide some level of compatibility all the way
+              back to the Intel 8008 introduced in April 1972. x86 assembly
+              languages are used to produce object code for the x86 class of
+              processors. Like all assembly languages, it uses short mnemonics
+              to represent the fundamental instructions that the CPU in a
+              computer can understand and follow. Compilers sometimes produce
+              assembly code as an intermediate step when translating a high
+              level program into machine code. Regarded as a programming
+              language, assembly coding is machine-specific and low level.
+              Assembly languages are more typically used for detailed and time
+              critical applications such as small real-time embedded systems or
+              operating system kernels and device drivers.
+            </p>
+
+            <p>
+              Each x86 assembly instruction is represented by a mnemonic which,
+              often combined with one or more operands, translates to one or
+              more bytes called an opcode; the NOP instruction translates to
+              0x90, for instance and the HLT instruction translates to 0xF4.
+              There are potential opcodes with no documented mnemonic which
+              different processors may interpret differently, making a program
+              using them behave inconsistently or even generate an exception on
+              some processors. These opcodes often turn up in code writing
+              competitions as a way to make the code smaller, faster, more
+              elegant or just show off the author's prowess.
+            </p>
+          </div>
+          <h3>Hello World in x86 Assembly:</h3>
+          <code>
+            ; Image base = 0x00400000 <br />
+            %define RVA(x) (x-0x00400000) <br />
+            section .text <br />
+            push dword hello <br />
+            call dword [printf] <br />
+            push byte +0 <br />
+            call dword [exit] <br />
+            ret <br />
+            <br />
+            section .data <br />
+            hello db "Hello world!" <br />
+            <br />
+            section .idata <br />
+            dd RVA(msvcrt_LookupTable) <br />
+            dd -1 <br />
+            dd 0 <br />
+            dd RVA(msvcrt_string) <br />
+            dd RVA(msvcrt_imports) <br />
+            times 5 dd 0 ; ends the descriptor table <br />
+            <br />
+            msvcrt_string dd "msvcrt.dll", 0 <br />
+            msvcrt_LookupTable: <br />
+            dd RVA(msvcrt_printf) <br />
+            dd RVA(msvcrt_exit) <br />
+            dd 0 <br />
+            <br />
+            msvcrt_imports: <br />
+            printf dd RVA(msvcrt_printf) <br />
+            exit dd RVA(msvcrt_exit) <br />
+            dd 0 <br />
+            <br />
+            msvcrt_printf: <br />
+            dw 1 <br />
+            dw "printf", 0 <br />
+            msvcrt_exit: <br />
+            dw 2 <br />
+            dw "exit", 0 <br />
+            dd 0</code
+          >
+        </section>
+
+        <!-- References -->
+        <section class="main-section" id="references">
+          <header><h2>References</h2></header>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>

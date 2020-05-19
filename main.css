@@ -3,7 +3,15 @@
 /***** PAGE SPECIFIC *****/
 
 /***** MEDIA QUERIES *****/
-@media (min-width: 1024px) {
-  /*****
-  TODO: Move the navbar to the left, the content to the right
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+  }
+  #navbar {
+    position: fixed;
+  }
+  #main-doc {
+    position: absolute;
+    left: 20rem;
+  }
 }
