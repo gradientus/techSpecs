@@ -1,6 +1,76 @@
 /***** LAYOUT *****/
+#main-doc {
+  margin-top: 3rem;
+  margin-right: 1.75rem;
+}
 
 /***** PAGE SPECIFIC *****/
+body {
+  font-family: "Courier New", Courier;
+  background-color: rgba(255, 254, 249 0.8);
+}
+
+h1 {
+  font-size: 1.66em;
+  margin-left: 1rem;
+}
+
+#navbar li {
+  list-style-type: none;
+  line-height: 2.25;
+}
+
+li a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.main-section {
+  padding: 1rem 1rem;
+  border-top: 1px black solid;
+}
+
+section {
+  line-height: 1.5;
+}
+
+code {
+  margin: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
+  line-height: 1.5;
+  display: block;
+  font-family: monospace, "Courier New", Courier;
+  background-color: rgb(238, 231, 231);
+}
+
+a:link {
+  color: purple;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: underline;
+}
 
 /***** MEDIA QUERIES *****/
 @media (min-width: 992px) {
@@ -12,6 +82,6 @@
   }
   #main-doc {
     position: absolute;
-    left: 20rem;
+    left: 23rem;
   }
 }
