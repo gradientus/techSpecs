@@ -75,6 +75,8 @@ a:focus {
 /***** MEDIA QUERIES *****/
 @media (min-width: 992px) {
   .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   #navbar {
